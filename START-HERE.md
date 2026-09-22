@@ -22,6 +22,8 @@ Use this gate before every research, design, code, integration, or deployment ph
 
 13. **Meet the full execution contract.** Read `FULL-AGENT-EXECUTION-CONTRACT.md` and complete its evidence sections. A builder may not stop after a basic recap or claim readiness from the repository structure alone.
 
+14. **Complete pre-build preparation.** Follow `PREBUILD-READINESS-CHECKLIST.md` in order: resolve stale sources, install safe in-scope tooling, prepare the full MCP inventory, verify secret-backed connectivity through protected workflows, activate five roles, and save the readiness package before implementation.
+
 If requirements or documentation conflict, pause and surface the conflict. Do not substitute a bulk clone, an unreviewed dependency, or a model-memory assumption for this gate.
 
 ## Reference reports

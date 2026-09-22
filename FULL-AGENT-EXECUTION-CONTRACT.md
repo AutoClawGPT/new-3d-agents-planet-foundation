@@ -5,6 +5,9 @@ not a summary prompt. It is an acceptance contract for becoming ready to build.
 
 ## The builder must finish all preparation
 
+Follow `PREBUILD-READINESS-CHECKLIST.md` from Phase 0 through Phase 6. The checklist
+is the required execution order, not optional reading.
+
 Reading the handoff is only the first step. The builder is not ready when it can
 repeat the structure, list the skills, or produce a short report. It is ready only
 when it has completed and saved evidence for every applicable item below.

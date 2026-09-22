@@ -33,6 +33,7 @@ The intended product is an original **New 3D Agents Planet**: a premium web plat
 11. Added the complete agent-browser stack guide for Browser Use, Scrape.do, sim-use, browser-harness, Stagehand, Playwright MCP, Agent-Reach, and Cua, including full-site inspection gates and Cua OIDC cleanup guidance.
 12. The onboarding guide now records the exact three secret names (`BROWSER_USE_API_KEY`, `SCRAPE_DO_TOKEN`, `BROWSERBASE_API_KEY`), their vendor dashboards, verification by name only, and the full Browserbase onboarding order. No secret values are recorded.
 13. Added `FULL-AGENT-EXECUTION-CONTRACT.md`, which requires end-to-end source, skill, tool, MCP, environment, five-role, architecture, security, and evidence preparation. A short reading recap is explicitly insufficient.
+14. Added `PREBUILD-READINESS-CHECKLIST.md`, a strict Phase 0–6 order requiring full preparation, safe tool installation, MCP inventory, protected browser connectivity checks, source resolution, and a complete readiness package before code.
 
 ## Subagent roles used
 
