@@ -42,6 +42,14 @@ The research documents contain direct primary-source links, confidence boundarie
 
 `SOURCES.md` is the complete supplied-link inventory. It is the index to consult before claiming that a requested reference was forgotten.
 
+## Clone and understand gate
+
+Cloning is a research action, not an automatic dependency decision. When source inspection requires a repository, clone only into an isolated reference directory at a pinned commit; inspect its README/AGENTS/CLAUDE files, manifests, licenses, relevant source, tests, and deployment configuration; then write a source report. Never clone into the product, run unknown install scripts, copy secrets, or bulk-copy a hosted application. Record what is adopted, adapted, referenced, or deferred and why.
+
+## UI build quality gate
+
+Before writing UI code, use the relevant design, frontend, accessibility, performance, and 3D skills; inspect reference surfaces and source reports; and write a short interaction/design spec. Every major screen needs clear hierarchy, intentional spacing, responsive states, loading/error/empty states, keyboard behavior, reduced-motion behavior, WebGL/mobile fallback, and a browser verification pass. Build components in small vertical slices. Do not ship a generic template, placeholder-heavy screen, unstructured markup, or decorative 3D without product purpose.
+
 ## Architecture that every project must decide explicitly
 
 Before code, document these choices:

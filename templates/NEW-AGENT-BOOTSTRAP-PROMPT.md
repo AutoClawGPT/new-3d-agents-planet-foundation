@@ -35,6 +35,8 @@ Do not return “understood” until the report is complete. Do not ask the huma
 
 - Use the smallest relevant skill set for the phase, but use every skill that genuinely applies.
 - Read official documentation before framework/API decisions and cite it in the report and implementation notes.
+- If source inspection requires cloning, clone only into an isolated reference directory at a pinned commit; inspect manifests, licenses, relevant source, tests, and deployment files before deciding what to adopt. Never bulk-copy a repository into the product.
+- For UI/3D work, read and invoke the relevant design, frontend, accessibility, performance, and 3D skills; inspect reference surfaces; write an interaction spec; and verify responsive, loading, empty, error, keyboard, reduced-motion, and WebGL fallback states in a browser.
 - Work in small, reviewable vertical slices. No bulk rewrite.
 - Keep research, plan, implementation, and verification artifacts in files.
 - Use independent subagents for independent research, implementation, and review; do not let multiple agents edit the same files without coordination.
@@ -42,6 +44,7 @@ Do not return “understood” until the report is complete. Do not ask the huma
 - For Solana work, route through the configured Solana MCP; for Solana program Rust, repeat the program-autofixer loop until clean.
 - Keep provider secrets, API keys, device codes, seed phrases, and private signing keys out of chat, Git, logs, and browser state.
 - Every user/agent capability must be scoped, revocable, rate-limited, tenant-bound, and auditable.
+- Never return a generic UI dump or placeholder-heavy screen; each component must trace to an approved interaction/design requirement and a verification check.
 - Real wallet/token actions require validation, simulation, immutable preview, explicit user authorization/signature, idempotent submission, confirmation, and an audit record.
 
 ## Required response before implementation

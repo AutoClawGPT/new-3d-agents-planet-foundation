@@ -15,6 +15,8 @@ The intended product is an original **New 3D Agents Planet**: a premium web plat
 - Support unique per-user API barriers, server-side provider credentials, auditability, transaction previews, explicit user confirmation, and safe Solana integration.
 - Keep Helius/Jupiter/provider keys out of client code and chat; configure provider credentials later in the server environment.
 - Build the UI in our own style after the foundation is approved; do not clone another product’s branding or hosted infrastructure.
+- When cloning is useful for understanding, clone only a pinned source into an isolated research directory, inspect its manifests/licenses/source/tests/deployment, and record the adoption decision; never dump an entire upstream repository into the product.
+- For UI work, use the relevant design/frontend/accessibility/performance/3D skills and verify responsive, loading, empty, error, keyboard, reduced-motion, and WebGL fallback states; do not ship generic or placeholder-heavy UI.
 
 ## Foundation work completed
 
