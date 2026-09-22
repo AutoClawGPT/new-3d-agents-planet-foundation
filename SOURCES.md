@@ -104,6 +104,17 @@ This is the link inventory supplied during the foundation work. Links are refere
 - https://docs.browser-use.com/cloud/guides/authentication
 - https://scrape.do/documentation/
 
+## Browser automation and QA references
+
+- https://github.com/lycorp-jp/sim-use
+- https://github.com/browser-use/browser-harness
+- https://docs.stagehand.dev/v4/first-steps/introduction
+- https://github.com/browserbase/stagehand
+- https://www.npmjs.com/package/@playwright/mcp
+- https://github.com/Panniantong/Agent-Reach
+- https://run.cua.ai/settings
+- https://github.com/trycua/cua
+
 ## three.ws MCP catalog and safety references
 
 - https://three.ws/mcp-tools?price=free

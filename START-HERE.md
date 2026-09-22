@@ -18,6 +18,8 @@ Use this gate before every research, design, code, integration, or deployment ph
 
 11. **Inventory MCP before wiring it.** Fetch `https://three.ws/mcp-catalog.json`, read the exact server/tool schemas and safety labels, compare the pinned snapshot, and regenerate `templates/threews-mcp-policy.json`. Default to strict: free reads allowed, writes ask, irreversible tools denied.
 
+12. **Use the browser stack deliberately.** Read `docs/integrations/AGENT-BROWSER-STACK.md`; inspect the full requested sites and repository sources, record evidence, and keep every credential server-only. Never add a live key to this repository.
+
 If requirements or documentation conflict, pause and surface the conflict. Do not substitute a bulk clone, an unreviewed dependency, or a model-memory assumption for this gate.
 
 ## Reference reports

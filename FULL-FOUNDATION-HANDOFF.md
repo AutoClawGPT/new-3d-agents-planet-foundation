@@ -30,6 +30,7 @@ The intended product is an original **New 3D Agents Planet**: a premium web plat
 8. Verified the `main` branch is clean and synchronized with `origin/main`.
 9. Added `CAPABILITY-MAP.md`, `CONTEXT.md`, the dated expansion scan, and an explicit Browser Use/Scrape.do integration contract with safe environment names only. These files make the foundation executable as a repeatable builder setup rather than a link-only outline.
 10. Added a pinned snapshot of the live three.ws MCP catalog, a generator, and a strict policy covering every catalog tool. The current snapshot reports 321 tools across 42 servers: 202 free read-only tools allowed, 94 tools requiring approval, and 25 irreversible tools denied by default.
+11. Added the complete agent-browser stack guide for Browser Use, Scrape.do, sim-use, browser-harness, Stagehand, Playwright MCP, Agent-Reach, and Cua, including full-site inspection gates and Cua OIDC cleanup guidance.
 
 ## Subagent roles used
 
@@ -66,6 +67,7 @@ At most three subagents run alongside the coordinating agent in this environment
 - Never place passwords, API keys, access tokens, device codes, seed phrases, or wallet private keys in chat, source, logs, browser-visible state, or this handoff.
 - Browser Use and Scrape.do keys are server-only. Use `templates/.env.example` and `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md`; the actual values are never recorded here.
 - three.ws MCP is catalog-driven. Use `docs/integrations/THREE-WS-MCP-CATALOG.md`, refresh the snapshot, and regenerate the strict policy before adding a server or tool.
+- Browser automation credentials are server-only. Use `docs/integrations/AGENT-BROWSER-STACK.md` and rotate every credential pasted into chat before use.
 - The personal GitHub token previously exposed in the conversation is not recorded here and must be revoked/rotated by the owner.
 - Browser Use and Scrape.do tokens pasted into the conversation are also treated as compromised and must be revoked/rotated before use.
 - Use GitHub CLI/device login or a secure secret manager; do not pass tokens through prompts.
