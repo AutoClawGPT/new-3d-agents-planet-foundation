@@ -28,6 +28,7 @@ The intended product is an original **New 3D Agents Planet**: a premium web plat
 6. Created `START-HERE.md`, `GUIDE.md`, a reusable `templates/AGENTS.md`, `.gitignore`, `README.md`, and this handoff file.
 7. Created and pushed the private repository `AutoClawGPT/new-3d-agents-planet-foundation`.
 8. Verified the `main` branch is clean and synchronized with `origin/main`.
+9. Added `CAPABILITY-MAP.md`, `CONTEXT.md`, the dated expansion scan, and an explicit Browser Use/Scrape.do integration contract with safe environment names only. These files make the foundation executable as a repeatable builder setup rather than a link-only outline.
 
 ## Subagent roles used
 
@@ -57,11 +58,14 @@ At most three subagents run alongside the coordinating agent in this environment
 8. Build one vertical slice at a time with tests and a working checkpoint.
 9. Review security, tenant isolation, accessibility, performance, dependencies, and source citations.
 10. Verify the actual commands, tests, browser behavior, and deployment result before claiming completion.
+11. Before stopping, update `NEXT-SESSION.md` and preserve the source/skill matrix, agent reports, decisions, and verification output. A role list without reports is not completion.
 
 ## Non-negotiable security rules
 
 - Never place passwords, API keys, access tokens, device codes, seed phrases, or wallet private keys in chat, source, logs, browser-visible state, or this handoff.
+- Browser Use and Scrape.do keys are server-only. Use `templates/.env.example` and `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md`; the actual values are never recorded here.
 - The personal GitHub token previously exposed in the conversation is not recorded here and must be revoked/rotated by the owner.
+- Browser Use and Scrape.do tokens pasted into the conversation are also treated as compromised and must be revoked/rotated before use.
 - Use GitHub CLI/device login or a secure secret manager; do not pass tokens through prompts.
 - Every user/agent gets a unique, scoped, revocable, rate-limited API barrier. Store only hashed or encrypted credentials server-side.
 - Provider secrets stay server-side. The browser receives capability-scoped calls, never master credentials.
@@ -78,6 +82,7 @@ At most three subagents run alongside the coordinating agent in this environment
 - Branch: `main`
 - Latest pushed commit: `4de99d2`
 - Main entry files: `README.md`, `GUIDE.md`, `START-HERE.md`, `SOURCES.md`, `templates/AGENTS.md`
+- Builder memory and capability files: `CAPABILITY-MAP.md`, `CONTEXT.md`, `NEXT-SESSION.md`, `templates/.env.example`
 - Research files: `docs/research/`
 
 ## What comes next

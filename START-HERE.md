@@ -10,6 +10,12 @@ Use this gate before every research, design, code, integration, or deployment ph
 6. **For any token or wallet action, use the approval gate.** Build a canonical proposal, validate policy, simulate, show the exact cluster/programs/accounts/amounts/fees/metadata and message digest, then require explicit user confirmation and wallet signature. Freeze and verify the signed bytes before one idempotent submission; audit every result. Devnet/local validator is the default.
 7. **Verify before handoff.** Run focused tests, security/tenant-isolation checks, accessibility and browser checks where relevant, and a fresh build/type/lint check. Record command, exit status, and failures. Do not claim completion without evidence.
 
+8. **Persist memory before stopping.** Write the research report, source-adoption matrix, decision record, plan, test evidence, and `NEXT-SESSION.md`. A later agent must resume from files, not chat or model memory.
+
+9. **Activate roles deliberately.** Name the coordinator, researcher, implementer, reviewer, and security reviewer. Start only roles needed for this slice, give each an independent output path, and reconcile reports. A template listing is not evidence that work happened.
+
+10. **Use browser/scrape research safely.** For Browser Use or Scrape.do, follow `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md`, fetch current vendor docs first, use server-only environment variables, and write a redacted evidence report.
+
 If requirements or documentation conflict, pause and surface the conflict. Do not substitute a bulk clone, an unreviewed dependency, or a model-memory assumption for this gate.
 
 ## Reference reports

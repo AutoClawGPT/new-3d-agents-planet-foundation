@@ -18,6 +18,7 @@ The product should learn from the referenced projects while keeping its own desi
 4. Write an approved spec and ordered task plan before application code.
 5. Give the new agent [templates/NEW-AGENT-BOOTSTRAP-PROMPT.md](templates/NEW-AGENT-BOOTSTRAP-PROMPT.md), then require its evidence report before implementation.
 6. Run [the expansion research protocol](docs/research/EXPANSION-RESEARCH-PROTOCOL.md): three.ws is the benchmark, and every applicable rendering, avatar/voice, agent-runtime, UI/design, Solana, and operations lane must be checked for newer or better options.
+7. If visual/source inspection needs managed browsers or scraping, read [Browser and Scrape.do setup](docs/integrations/BROWSER-AND-SCRAPE-SETUP.md) and use [the safe environment template](templates/.env.example). Values never belong in this repository.
 
 ## Exact onboarding path for a new agent
 
@@ -57,6 +58,8 @@ The prompt is a quality gate, not a replacement for human approval of scope, wal
 - `FULL-FOUNDATION-HANDOFF.md` — complete conversation handoff and durable memory.
 - `templates/NEW-AGENT-BOOTSTRAP-PROMPT.md` — strict startup prompt for any new coding agent.
 - `docs/research/EXPANSION-RESEARCH-PROTOCOL.md` — mandatory research gate beyond three.ws for every project.
+- `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md` — current browser/scraping setup, environment contract, safety, and evidence requirements.
+- `templates/.env.example` — variable names and safe placeholders only; put real values in a secret manager.
 
 ## Security baseline
 

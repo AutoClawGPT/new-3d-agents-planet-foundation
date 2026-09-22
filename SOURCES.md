@@ -92,6 +92,20 @@ This is the link inventory supplied during the foundation work. Links are refere
 - https://github.com/Open-Dot-Agents/SKILL.md
 - https://developer.mozilla.org/
 
+## Browser research and visual inspection references
+
+- https://docs.browser-use.com/cloud/llms.txt
+- https://docs.browser-use.com/cloud/vibecoding
+- https://docs.browser-use.com/cloud/llms-full.txt
+- https://docs.browser-use.com/cloud/openapi/v4.json
+- https://docs.browser-use.com/cloud/agent/quickstart
+- https://docs.browser-use.com/cloud/browser/quickstart
+- https://docs.browser-use.com/cloud/agent/observability
+- https://docs.browser-use.com/cloud/guides/authentication
+- https://scrape.do/documentation/
+
+These sources inform `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md`. They are server-side research tools, not browser-bundle dependencies. Keys supplied in chat are intentionally not recorded.
+
 ## Adoption rule
 
 Every source must be classified in a research note as `adopt`, `adapt`, `reference`, or `defer`, with version/commit, license, security impact, and the exact project layer it informs. Public availability does not imply permission to clone hosted systems into production. Never place API keys, device codes, access tokens, seed phrases, or wallet private keys in this file or any repository.
