@@ -31,8 +31,7 @@ Put values in a server secret manager or GitHub Actions secrets. Never commit th
 ```text
 BROWSER_USE_API_KEY
 SCRAPE_DO_TOKEN
-STAGEHAND_API_KEY
-STAGEHAND_PROJECT_ID
+BROWSERBASE_API_KEY
 AGENT_REACH_API_KEY
 CUA_CLIENT_ID
 CUA_CLIENT_SECRET
@@ -42,6 +41,31 @@ Prefer short-lived/OIDC Cua authentication over a long-lived client secret. The
 GitHub job must request `id-token: write`, use the documented Cua CLI version, mask
 outputs, and delete the sandbox in an `EXIT` trap. Never put the Cua client secret in
 repository files, prompts, browser state, or a frontend bundle.
+
+### Where to create each credential
+
+- Browser Use Cloud: https://cloud.browser-use.com/settings?tab=api-keys&new=1 → `BROWSER_USE_API_KEY`
+- Scrape.do: https://dashboard.scrape.do/ → API token → `SCRAPE_DO_TOKEN`
+- Browserbase/Stagehand: https://browserbase.com/overview → API key → `BROWSERBASE_API_KEY`
+- Agent-Reach: https://github.com/Panniantong/Agent-Reach → normally no API key; use its install and doctor flow.
+
+Store them in GitHub Actions without writing them to a file:
+
+```bash
+gh secret set BROWSER_USE_API_KEY --repo AutoClawGPT/new-3d-agents-planet-foundation
+gh secret set SCRAPE_DO_TOKEN --repo AutoClawGPT/new-3d-agents-planet-foundation
+gh secret set BROWSERBASE_API_KEY --repo AutoClawGPT/new-3d-agents-planet-foundation
+```
+
+Verify only secret names; values are intentionally never displayed:
+
+```bash
+gh secret list --repo AutoClawGPT/new-3d-agents-planet-foundation
+```
+
+Typing a credential directly at a shell prompt attempts to execute it as a command;
+it does not save it. Any credential pasted into chat or the shell must be revoked
+and regenerated before storing the replacement.
 
 ## Research gate
 
