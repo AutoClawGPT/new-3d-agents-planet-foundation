@@ -17,6 +17,7 @@ This repository is a foundation for real projects, not an application clone and 
 - `templates/AGENTS.md` — concise agent instructions for a new repository.
 - `docs/research/` — primary-source inventories for three.ws, ClawPump, Solana, embodied agents, and workflow skills.
 - `GUIDE.md` — the portable process, source map, and delivery standard.
+- `SOURCES.md` — the complete link inventory supplied during the foundation work.
 
 ## Security baseline
 

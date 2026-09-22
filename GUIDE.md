@@ -40,6 +40,8 @@ The goal is an original product: its own design system, UI, data model, APIs, an
 
 The research documents contain direct primary-source links, confidence boundaries, license notes, and items that need re-verification at implementation time.
 
+`SOURCES.md` is the complete supplied-link inventory. It is the index to consult before claiming that a requested reference was forgotten.
+
 ## Architecture that every project must decide explicitly
 
 Before code, document these choices:
