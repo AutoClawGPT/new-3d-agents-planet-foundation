@@ -17,6 +17,7 @@ The product should learn from the referenced projects while keeping its own desi
 3. Read the relevant source registry in [docs/research](docs/research) before selecting dependencies.
 4. Write an approved spec and ordered task plan before application code.
 5. Give the new agent [templates/NEW-AGENT-BOOTSTRAP-PROMPT.md](templates/NEW-AGENT-BOOTSTRAP-PROMPT.md), then require its evidence report before implementation.
+6. Run [the expansion research protocol](docs/research/EXPANSION-RESEARCH-PROTOCOL.md): three.ws is the benchmark, and every applicable rendering, avatar/voice, agent-runtime, UI/design, Solana, and operations lane must be checked for newer or better options.
 
 ## Exact onboarding path for a new agent
 
@@ -55,6 +56,7 @@ The prompt is a quality gate, not a replacement for human approval of scope, wal
 - `SOURCES.md` — the complete link inventory supplied during the foundation work.
 - `FULL-FOUNDATION-HANDOFF.md` — complete conversation handoff and durable memory.
 - `templates/NEW-AGENT-BOOTSTRAP-PROMPT.md` — strict startup prompt for any new coding agent.
+- `docs/research/EXPANSION-RESEARCH-PROTOCOL.md` — mandatory research gate beyond three.ws for every project.
 
 ## Security baseline
 

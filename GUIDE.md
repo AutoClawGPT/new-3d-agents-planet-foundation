@@ -11,11 +11,12 @@ The goal is an original product: its own design system, UI, data model, APIs, an
 1. Read `START-HERE.md` and the target project's `AGENTS.md`.
 2. Select the exact skills for the current phase and read their full `SKILL.md` files.
 3. Read the relevant official sources and the matching file in `docs/research/`.
-4. State assumptions and security boundaries.
-5. Write a spec, acceptance criteria, and a dependency-ordered task plan.
-6. Build one tested vertical slice at a time.
-7. Delegate independent research, implementation, and review work to separate short-lived subagents; preserve decisions and results in repository files.
-8. Verify with tests, browser checks, security review, and source citations before claiming completion.
+4. Run `docs/research/EXPANSION-RESEARCH-PROTOCOL.md`; use three.ws as the embodied-3D benchmark, then search current rendering, avatar/voice, agent-runtime, UI/design, Solana, and operations sources.
+5. State assumptions and security boundaries.
+6. Write a spec, acceptance criteria, and a dependency-ordered task plan.
+7. Build one tested vertical slice at a time.
+8. Delegate independent research, implementation, and review work to separate short-lived subagents; preserve decisions and results in repository files.
+9. Verify with tests, browser checks, security review, and source citations before claiming completion.
 
 ## Phase routing
 

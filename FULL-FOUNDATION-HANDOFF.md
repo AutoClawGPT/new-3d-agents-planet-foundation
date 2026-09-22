@@ -24,9 +24,10 @@ The intended product is an original **New 3D Agents Planet**: a premium web plat
 2. Configured the official Solana documentation MCP in Codex at `https://mcp.solana.com/mcp`.
 3. Confirmed the MCP is an official documentation/program-review connection and added no Helius, Jupiter, wallet, or private-key credentials.
 4. Created research reports for three.ws, Solana/agent architecture, ClawPump, embodied-agent sources, Solana protocol sources, and skill routing under `docs/research/`.
-5. Created `START-HERE.md`, `GUIDE.md`, a reusable `templates/AGENTS.md`, `.gitignore`, `README.md`, and this handoff file.
-6. Created and pushed the private repository `AutoClawGPT/new-3d-agents-planet-foundation`.
-7. Verified the `main` branch is clean and synchronized with `origin/main`.
+5. Added the standing expansion-research protocol: three.ws is the benchmark, and every project must search current rendering, avatar/voice, agent-runtime, UI/design, Solana, and operations sources before implementation.
+6. Created `START-HERE.md`, `GUIDE.md`, a reusable `templates/AGENTS.md`, `.gitignore`, `README.md`, and this handoff file.
+7. Created and pushed the private repository `AutoClawGPT/new-3d-agents-planet-foundation`.
+8. Verified the `main` branch is clean and synchronized with `origin/main`.
 
 ## Subagent roles used
 
