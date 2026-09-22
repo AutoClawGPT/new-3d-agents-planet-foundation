@@ -19,6 +19,7 @@ The product should learn from the referenced projects while keeping its own desi
 5. Give the new agent [templates/NEW-AGENT-BOOTSTRAP-PROMPT.md](templates/NEW-AGENT-BOOTSTRAP-PROMPT.md), then require its evidence report before implementation.
 6. Run [the expansion research protocol](docs/research/EXPANSION-RESEARCH-PROTOCOL.md): three.ws is the benchmark, and every applicable rendering, avatar/voice, agent-runtime, UI/design, Solana, and operations lane must be checked for newer or better options.
 7. If visual/source inspection needs managed browsers or scraping, read [Browser and Scrape.do setup](docs/integrations/BROWSER-AND-SCRAPE-SETUP.md) and use [the safe environment template](templates/.env.example). Values never belong in this repository.
+8. For MCP work, read [the three.ws catalog policy](docs/integrations/THREE-WS-MCP-CATALOG.md), compare the live catalog, and regenerate the strict policy before wiring any tool.
 
 ## Exact onboarding path for a new agent
 
@@ -60,6 +61,8 @@ The prompt is a quality gate, not a replacement for human approval of scope, wal
 - `docs/research/EXPANSION-RESEARCH-PROTOCOL.md` — mandatory research gate beyond three.ws for every project.
 - `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md` — current browser/scraping setup, environment contract, safety, and evidence requirements.
 - `templates/.env.example` — variable names and safe placeholders only; put real values in a secret manager.
+- `docs/integrations/THREE-WS-MCP-CATALOG.md` — complete catalog workflow and safety policy.
+- `templates/threews-mcp-policy.json` — generated strict allow/ask/deny policy for every catalog tool.
 
 ## Security baseline
 

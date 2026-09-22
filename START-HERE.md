@@ -16,6 +16,8 @@ Use this gate before every research, design, code, integration, or deployment ph
 
 10. **Use browser/scrape research safely.** For Browser Use or Scrape.do, follow `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md`, fetch current vendor docs first, use server-only environment variables, and write a redacted evidence report.
 
+11. **Inventory MCP before wiring it.** Fetch `https://three.ws/mcp-catalog.json`, read the exact server/tool schemas and safety labels, compare the pinned snapshot, and regenerate `templates/threews-mcp-policy.json`. Default to strict: free reads allowed, writes ask, irreversible tools denied.
+
 If requirements or documentation conflict, pause and surface the conflict. Do not substitute a bulk clone, an unreviewed dependency, or a model-memory assumption for this gate.
 
 ## Reference reports

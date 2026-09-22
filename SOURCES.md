@@ -104,6 +104,13 @@ This is the link inventory supplied during the foundation work. Links are refere
 - https://docs.browser-use.com/cloud/guides/authentication
 - https://scrape.do/documentation/
 
+## three.ws MCP catalog and safety references
+
+- https://three.ws/mcp-tools?price=free
+- https://three.ws/mcp-tools
+- https://three.ws/mcp-catalog.json
+- https://three.ws/docs/mcp-safety
+
 These sources inform `docs/integrations/BROWSER-AND-SCRAPE-SETUP.md`. They are server-side research tools, not browser-bundle dependencies. Keys supplied in chat are intentionally not recorded.
 
 ## Adoption rule
