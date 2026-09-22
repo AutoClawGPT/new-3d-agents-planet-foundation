@@ -54,6 +54,7 @@ This is the link inventory supplied during the foundation work. Links are refere
 
 ## ClawPump and agent API references
 
+- https://ansemrail.vercel.app/skill.md
 - https://clawpump.tech/
 - https://clawpump.tech/docs
 - https://clawpump.tech/mcp
