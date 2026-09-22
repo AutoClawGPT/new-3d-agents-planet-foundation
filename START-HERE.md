@@ -20,6 +20,8 @@ Use this gate before every research, design, code, integration, or deployment ph
 
 12. **Use the browser stack deliberately.** Read `docs/integrations/AGENT-BROWSER-STACK.md`; inspect the full requested sites and repository sources, record evidence, and keep every credential server-only. Never add a live key to this repository.
 
+13. **Meet the full execution contract.** Read `FULL-AGENT-EXECUTION-CONTRACT.md` and complete its evidence sections. A builder may not stop after a basic recap or claim readiness from the repository structure alone.
+
 If requirements or documentation conflict, pause and surface the conflict. Do not substitute a bulk clone, an unreviewed dependency, or a model-memory assumption for this gate.
 
 ## Reference reports

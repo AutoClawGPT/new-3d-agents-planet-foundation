@@ -21,6 +21,7 @@ The product should learn from the referenced projects while keeping its own desi
 7. If visual/source inspection needs managed browsers or scraping, read [Browser and Scrape.do setup](docs/integrations/BROWSER-AND-SCRAPE-SETUP.md) and use [the safe environment template](templates/.env.example). Values never belong in this repository.
 8. For MCP work, read [the three.ws catalog policy](docs/integrations/THREE-WS-MCP-CATALOG.md), compare the live catalog, and regenerate the strict policy before wiring any tool.
 9. For browser/source inspection, read [the agent browser stack](docs/integrations/AGENT-BROWSER-STACK.md) and inspect every selected repository at a pinned commit before installation.
+10. Give the builder [the full execution contract](FULL-AGENT-EXECUTION-CONTRACT.md); a short reading recap is not readiness.
 
 ## Exact onboarding path for a new agent
 
@@ -65,6 +66,7 @@ The prompt is a quality gate, not a replacement for human approval of scope, wal
 - `docs/integrations/THREE-WS-MCP-CATALOG.md` — complete catalog workflow and safety policy.
 - `templates/threews-mcp-policy.json` — generated strict allow/ask/deny policy for every catalog tool.
 - `docs/integrations/AGENT-BROWSER-STACK.md` — Browser Use, Scrape.do, sim-use, harness, Stagehand, Playwright MCP, Agent-Reach, and Cua research/QA gates.
+- `FULL-AGENT-EXECUTION-CONTRACT.md` — mandatory end-to-end preparation and evidence contract for every new builder.
 
 ## Security baseline
 
