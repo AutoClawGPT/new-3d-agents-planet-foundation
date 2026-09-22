@@ -1,0 +1,18 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*credential*
+
+# Dependencies and generated files
+node_modules/
+.next/
+dist/
+coverage/
+
+# Local agent/session state
+.superpowers/
+.agents/
