@@ -63,9 +63,35 @@ Verify only secret names; values are intentionally never displayed:
 gh secret list --repo AutoClawGPT/new-3d-agents-planet-foundation
 ```
 
+Expected foundation secret names after onboarding:
+
+```text
+BROWSER_USE_API_KEY
+SCRAPE_DO_TOKEN
+BROWSERBASE_API_KEY
+```
+
+An agent may verify names with `gh secret list`, but it must never attempt to read,
+print, export, or commit the values. A CI job receives a secret only through its
+declared environment and only for the one step that needs it.
+
 Typing a credential directly at a shell prompt attempts to execute it as a command;
 it does not save it. Any credential pasted into chat or the shell must be revoked
 and regenerated before storing the replacement.
+
+## Mandatory Browserbase onboarding order
+
+1. Read this file, the Browser Use index/full reference, current Browserbase and
+   Stagehand docs, and the selected repository's pinned source before installing.
+2. Confirm Node and the `browse` CLI exist; ask before installing or upgrading.
+3. Set `BROWSERBASE_API_KEY` only in the server/Actions secret store and verify access
+   with `browse cloud projects list`. Do not request, store, or add a project ID.
+4. Choose a disposable template or existing project only after the readiness report,
+   source/skill matrix, and five-role roster are complete.
+5. Run a real, permitted read-only session; capture the full session/replay URL and
+   redacted evidence. Stop cloud sessions with the documented API stop action.
+6. Before product implementation, reconcile coordinator, researcher, implementer,
+   reviewer, and security-reviewer reports and write the next-session memory file.
 
 ## Research gate
 

@@ -31,6 +31,7 @@ The intended product is an original **New 3D Agents Planet**: a premium web plat
 9. Added `CAPABILITY-MAP.md`, `CONTEXT.md`, the dated expansion scan, and an explicit Browser Use/Scrape.do integration contract with safe environment names only. These files make the foundation executable as a repeatable builder setup rather than a link-only outline.
 10. Added a pinned snapshot of the live three.ws MCP catalog, a generator, and a strict policy covering every catalog tool. The current snapshot reports 321 tools across 42 servers: 202 free read-only tools allowed, 94 tools requiring approval, and 25 irreversible tools denied by default.
 11. Added the complete agent-browser stack guide for Browser Use, Scrape.do, sim-use, browser-harness, Stagehand, Playwright MCP, Agent-Reach, and Cua, including full-site inspection gates and Cua OIDC cleanup guidance.
+12. The onboarding guide now records the exact three secret names (`BROWSER_USE_API_KEY`, `SCRAPE_DO_TOKEN`, `BROWSERBASE_API_KEY`), their vendor dashboards, verification by name only, and the full Browserbase onboarding order. No secret values are recorded.
 
 ## Subagent roles used
 
